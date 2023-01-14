@@ -1,0 +1,22 @@
+name: Essential Plugins
+main: me.bukkit.main.Main
+version: 1.0
+commands: 
+  heal:
+    description: Heals the player!
+    usage: /<command>
+  ci:
+    description: Clears your inventory!
+    usage: /<command>
+  clearpots:
+    description: Clears all potion effects!
+    usage: /<command>
+  troll:
+    description: Trolls the player!
+    usage: /<command>
+  clearlag:
+    description: Kills all entities except the player!
+    usage: /<command>
+  
+
+ 

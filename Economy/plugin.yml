@@ -1,0 +1,13 @@
+name: Economy
+main: me.bukkit.economy.Economy
+version: 1.0
+commands:
+  coins:
+    description: Add remove or set a players coins!
+    usage: /<command>
+  balance:
+    description: Displays the amount of coins!
+    usage: /<command>
+  updatescoreboard:
+    description: Update the scoreboard
+    usage: /<command>

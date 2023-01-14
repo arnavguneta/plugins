@@ -1,0 +1,9 @@
+name: 1v1
+main: me.bukkit.onevone.PvP
+version: 1.0
+author: Gqbe
+commands:
+  1v1: 
+    description: 1v1 a player!
+    usage: /<command>
+  

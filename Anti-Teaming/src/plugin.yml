@@ -1,0 +1,10 @@
+name: AntiTeaming
+main: me.bukkit.teaming.Main
+version: 1.0
+commands:
+  anti_teaming:
+    description: Toggle the anti-teaming plugin on/off.
+
+permissions:
+  anti_teaming:
+    default: op

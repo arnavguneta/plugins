@@ -1,0 +1,7 @@
+name: InventoryGUI
+main: me.bukkit.inventory.InventoryGUI
+version: 1.0
+commands:
+  kit:
+    description: Gives you a kit selector!
+    usage: /<command>

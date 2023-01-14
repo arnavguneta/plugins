@@ -1,0 +1,10 @@
+name: TNTTAG
+main: me.bukkit.tnttag.MainClass
+version: 1.0 
+commands:
+  game:
+    description: Start or stop the game!
+    usage: /<command>
+  setspawn:
+    description: Set game and lobby spawn!
+    usage: /<command>

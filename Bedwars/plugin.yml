@@ -1,0 +1,8 @@
+name: Bedwars
+main: me.bukkit.bedwars.Main
+version: 1.0
+commands:
+  bedwars:
+    description: Setup bedwars.
+    usage: /<command>
+    aliases: [bw, b, bed, bedw]

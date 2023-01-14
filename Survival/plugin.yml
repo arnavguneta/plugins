@@ -1,0 +1,76 @@
+name: Survival
+main: me.bukkit.survival.Main
+version: 1.0 
+commands:
+  shop:
+    description: Access the shop.
+    usage: /<command>
+    aliases: [s]
+  balance:
+    description: View your balance.
+    usage: /<command>
+    aliases: [bal, money, $]
+  pay:
+    description: Pay other players. WARNING Removes money from your balance.
+    usage: /<command>
+  set:
+    description: Set your or someone else's balance.
+    usage: /<command>
+  kit:
+    description: Get a starter kit.
+    usage: /<command>
+  setspawn:
+    description: Set world spawn.
+    usage: /<command>
+  spawn:
+    description: Go to spawn.
+    usage: /<command>
+  sethome:
+    description: Set a home location.
+    usage: /<command>
+  home:
+    description: Go to your home.
+    usage: /<command>
+  back:
+    description: Return to your previous location.
+    usage: /<command>
+  world:
+    description: Teleport to another world.
+    usage: /<command>
+    aliases: [w]
+  broadcast:
+      description: Broadcast a message to the server.
+      usage: /<command>
+      aliases: [broad]
+  fly:
+      description: Toggle fly above a specific Y location.
+      usage: /<command>
+  1v1:
+      description: 1v1 a player to earn money.
+      usage: /<command>
+  clearlag:
+      description: Clears all entities except mobs/ players.
+      usage: /<command>
+      aliases: [cl, clearl, lagclear, clag]
+  chest:
+      description: Saves your inventory into a chest under you.
+      usage: /<command>
+      aliases: [saveinv, isave, savei]
+  guard:
+      description: Protects blocks.
+      usage: /<command>
+      aliases: [g]
+
+
+permissions:
+  shop:
+    default: op
+  set:
+    default: op
+  setspawn:
+    default: op
+  broadcast:
+    default: op
+  tp:
+    default: op
+

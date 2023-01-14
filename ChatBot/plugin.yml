@@ -1,0 +1,5 @@
+name: Chat Bot
+main: me.bukkit.chatbot.Main
+version: 1.0
+
+
